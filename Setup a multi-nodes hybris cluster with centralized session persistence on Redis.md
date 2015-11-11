@@ -28,7 +28,6 @@
 - MariaDB 10.1.8
 
 #Design
-1 Nginx + 2 hybris app + 1 DB (Diagram)
 ![Architecture](images/arch_design.png)
 Simplified Architecture
 - Share the Solr on one node (better to deploy seperately in production environment)
@@ -199,12 +198,12 @@ cluster.broadcast.method.jgroups.configuration=jgroups-udp.xml
 ```
 
 #Testing & Verify
-1) access https://electronics.local:9002/yacceleratorstorefront/my-account & login
+1) Access https://electronics.local:9002/yacceleratorstorefront/my-account & login
 
-2) access https://electronics.local:9102/yacceleratorstorefront/my-account you will get the same session
+2) Access https://electronics.local:9102/yacceleratorstorefront/my-account you will get the same session
 ![Session](images/jsessionid.png)
 
-3) access https://electronics.local/yacceleratorstorefront/my-account
+3) Access https://electronics.local/yacceleratorstorefront/my-account
 - check session sticky / non-session sticky config
 - shutdown one node(current session node) to test the failover
 
