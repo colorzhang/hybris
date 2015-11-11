@@ -78,11 +78,11 @@ os.rmiregistry.port=2298
 ```
 
 ##Configure Spring Session on both nodes
-1) add related jars to platform/ext/core/lib
+1) add related jars to platform/ext/core/lib and modify some classes
 
 2) config hybris
 
-web/webroot/WEB-INF/config/spring-session.xml  Collapse source
+*web/webroot/WEB-INF/config/spring-session.xml*
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -104,14 +104,14 @@ web/webroot/WEB-INF/config/spring-session.xml  Collapse source
 </beans>
 ```
 
-web/webroot/WEB-INF/config/web-application-config.xml  Collapse source
+*web/webroot/WEB-INF/config/web-application-config.xml*
 ```bash
 ...
 <import resource="spring-session.xml"/>
 ...
 ```
 
-web/webroot/WEB-INF/web.xml  Collapse source
+*web/webroot/WEB-INF/web.xml*
 ```bash
 ...
 <filter>
@@ -208,7 +208,8 @@ cluster.broadcast.method.jgroups.configuration=jgroups-udp.xml
 5) Check cluster status
 
 #Open issues
-* Next step
+
+#Next step
 * Performance testing
 * Redis cluster
 * Dockerize
