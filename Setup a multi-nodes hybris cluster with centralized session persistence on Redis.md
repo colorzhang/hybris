@@ -29,6 +29,10 @@
 
 #Design
 1 Nginx + 2 hybris app + 1 DB (Diagram)
+![Architecture](images/arch_design.png)
+Simplified Architecture
+- Share the Solr on one node (better to deploy seperately in production environment)
+- Share media on one node (better to serve media with CDN or dedicate images server)
 
 #Installation & Configuration
 ##Install redis
@@ -198,14 +202,17 @@ cluster.broadcast.method.jgroups.configuration=jgroups-udp.xml
 1) access https://electronics.local:9002/yacceleratorstorefront/my-account & login
 
 2) access https://electronics.local:9102/yacceleratorstorefront/my-account you will get the same session
+![Session](images/jsessionid.png)
 
 3) access https://electronics.local/yacceleratorstorefront/my-account
 - check session sticky / non-session sticky config
 - shutdown one node(current session node) to test the failover
 
 4) Check session stored in Redis
+![Session in Redis](images/redis.png)
 
 5) Check cluster status
+![hybris Cluster status](images/ycluster.png)
 
 #Open issues
 
