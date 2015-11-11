@@ -79,7 +79,9 @@ os.rmiregistry.port=2298
 
 ##Configure Spring Session on both nodes
 1) add related jars to platform/ext/core/lib
+
 2) config hybris
+
 web/webroot/WEB-INF/config/spring-session.xml  Collapse source
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -194,11 +196,13 @@ cluster.broadcast.method.jgroups.configuration=jgroups-udp.xml
 
 #Testing & Verify
 1) access https://electronics.local:9002/yacceleratorstorefront/my-account & login
+
 2) access https://electronics.local:9102/yacceleratorstorefront/my-account you will get the same session
 
 3) access https://electronics.local/yacceleratorstorefront/my-account
-check session sticky / non-session sticky config
-shutdown one node(current session node) to test the failover
+- check session sticky / non-session sticky config
+- shutdown one node(current session node) to test the failover
+
 4) Check session stored in Redis
 
 5) Check cluster status
