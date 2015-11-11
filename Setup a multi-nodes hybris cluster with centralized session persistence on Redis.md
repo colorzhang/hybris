@@ -217,8 +217,8 @@ cluster.broadcast.method.jgroups.configuration=jgroups-udp.xml
 
 #Next step
 * Performance testing
-* Redis cluster
-* Dockerize
+* Redis cluster setup
+* Docker deployment
 
 #References
 [Spring Session project](http://projects.spring.io/spring-session/)
