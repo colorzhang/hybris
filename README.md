@@ -1,4 +1,4 @@
-hybris architecture
+highly scalable and available hybris e-commerce architecture
 ====
 
 A series of articles about highly scalable and available hybris systems:
