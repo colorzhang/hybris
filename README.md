@@ -16,4 +16,4 @@ A series of articles about highly scalable and available hybris systems:
 [Scale your search with SolrCloud]
 
 * Part 5:
-[...]
+[Micro-service and orchestration]
