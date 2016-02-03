@@ -17,3 +17,6 @@ A series of articles about highly scalable and available hybris systems:
 
 * Part 5:
 [Micro-service and orchestration]
+
+* Part 6:
+[High performance API and Gateway with OpenResty]
