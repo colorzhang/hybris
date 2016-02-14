@@ -14,12 +14,13 @@
 - Gatling 2.1
 
 ##Design
+[Netty](http://netty.io) is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients. We will use Netty to make OCC API asynchronize in this chapter. Async servlet can also be used to do this. We will discuss later in other chapter. stay tuned!
 
 | Features | Async servlet | Netty |
 | --- | --- | --- |
-| code change | List all new or modified files | |
-| OCC API | Show file differences that haven't been staged | |
-| Web pages | |
+| code change | internal/code tangling | external/cross cutting |
+| OCC API | :white_check_mark: | :white_check_mark: |
+| Web pages | :white_check_mark: | :x: |
 
 #Implementation
 
