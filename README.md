@@ -23,6 +23,7 @@ A series of articles about highly scalable and available hybris systems:
 
 * Part 7:
 [Make hybris OCC API asynchronize with Netty]
+(https://github.com/colorzhang/hybris/blob/master/Make%20hybris%20OCC%20API%20asynchronize%20with%20Netty.md)
 
 * Part 8:
 [Make web asynchronize with async servlet]
