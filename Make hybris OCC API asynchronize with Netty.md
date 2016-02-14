@@ -50,7 +50,7 @@ Figure:point_up:: Testing statistics/Spring MVC based OCC API/1000 users
 ![Netty OCC 100 concurrency stat](images/netty-1000-stat.png)
 Figure:point_up:: Testing statistics/Netty based OCC API/1000 users
 
-As you can see form these figures, Netty base OCC API has much better and stable response time and tps than default OCC API under high load. Netty based OCC API still has less resource utilization than default OCC API.
+As you can see form these figures, Netty based OCC API has much better and stable response time and tps than default OCC API under high load. Netty based OCC API still has less resource utilization than default OCC API.
 
 There are some dropped connections for default Spring MVC based OCC API when have 500 more users. (Red part in tps figure)
 
@@ -61,7 +61,7 @@ Figure:point_up:: Response time and TPS/Netty based OCC API/1000 users
 
 #Conclusion
 There is no significant difference on response time and tps under light load for both sync and async implementation.
-Asynchronization has much better and stable performance than sync under high load.
+Asynchronization has much better and stable performance than sync one under high load.
 
 #Ideas
 - How to protect your services from overload and cascading failures
