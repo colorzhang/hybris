@@ -74,7 +74,7 @@ Asynchronization has much better and stable performance than sync one under high
 #Ideas
 - How to protect your services from overload and cascading failures
  + Scaling at server side
- + Throttling at gateway
+ + Throttling at gateway or service
  + Failing fast at client side
 
 #Open issues
