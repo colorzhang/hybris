@@ -19,9 +19,13 @@
 
 #Stress testing
 
+![Default OCC 100 concurrency stat](images/y100-stat.png)
+![Netty OCC 100 concurrency stat](images/netty-100-stat.png)
+
 #Conclusion
 
 #Open issues
+- some logic is hard coded
 
 #Next step
 - Full funcational testing
