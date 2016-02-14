@@ -14,6 +14,8 @@
 - Gatling 2.1
 
 ##Design
+[The Omni Commerce Connect (OCC)](https://wiki.hybris.com/display/release5/OCC+Architecture+Overview) is a next-generation commerce-driven RESTful web services API that offers a broad set of commerce and data services which enable you to use and leverage the complete hybris Commerce Suite functionality anywhere in your existing application landscape. 
+
 [Netty](http://netty.io) is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients. We will use Netty to make OCC API asynchronize in this chapter. Async servlet can also be used to do this. We will discuss later in other chapter. stay tuned!
 
 | Features | Async servlet | Netty |
