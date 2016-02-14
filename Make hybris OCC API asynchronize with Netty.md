@@ -15,15 +15,17 @@
 
 ##Design
 
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| Features | Async servlet | Netty |
+| --- | --- | --- |
+| code change | List all new or modified files | |
+| OCC API | Show file differences that haven't been staged | |
+| Web pages | |
 
 #Implementation
 
 #Stress testing
 :warning::warning::warning: This is NOT a through testing :warning::warning::warning:
+
 ![Default OCC 100 concurrency stat](images/y100-stat.png)
 Figure:point_up:: Testing statistics/Spring MVC based OCC API/100 users
 ![Netty OCC 100 concurrency stat](images/netty-100-stat.png)
