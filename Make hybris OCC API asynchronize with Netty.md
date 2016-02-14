@@ -22,7 +22,7 @@ I recommend to use async servlet to do OCC asynchronize in project for better le
 
 | Features | Async servlet | Netty |
 | --- | --- | --- |
-| code change | internal/code tangling | external/cross cutting |
+| Code change | internal/code tangling | external/cross cutting |
 | OCC API async | :white_check_mark: | :white_check_mark: |
 | Web pages async | :white_check_mark: | :x: |
 
