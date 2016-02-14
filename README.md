@@ -20,3 +20,9 @@ A series of articles about highly scalable and available hybris systems:
 
 * Part 6:
 [High performance API and Gateway with OpenResty]
+
+* Part 7:
+[Make hybris OCC API asynchronize with Netty]
+
+* Part 8:
+[Make web asynchronize with async servlet]
