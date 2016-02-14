@@ -63,6 +63,12 @@ Figure:point_up:: Response time and TPS/Netty based OCC API/1000 users
 There is no significant difference on response time and tps under light load for both sync and async implementation.
 Asynchronization has much better and stable performance than sync under high load.
 
+#Ideas
+* How to protect your services from overload and cascading failures
+** Scaling at server side
+** Throttling at gateway
+** Fail fast at client side
+
 #Open issues
 - some logic is hard coded
 
@@ -76,4 +82,4 @@ Asynchronization has much better and stable performance than sync under high loa
 
 Winston Zhang (colorzhang@gmail.com)
 
-Feburary 14, 2016
+February 14, 2016
