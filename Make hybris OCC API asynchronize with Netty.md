@@ -26,6 +26,10 @@ I recommend to use async servlet to do OCC asynchronize in project for better le
 | OCC API async | :white_check_mark: | :white_check_mark: |
 | Web pages async | :white_check_mark: | :x: |
 
+The call stack will be:
+client -> netty -> channel handler -> dispatch servlet -> controller -> OCC business logic
+
+
 #Implementation
 
 #Stress testing
@@ -67,7 +71,7 @@ Asynchronization has much better and stable performance than sync one under high
 - How to protect your services from overload and cascading failures
  + Scaling at server side
  + Throttling at gateway
- + Fail fast at client side
+ + Failing fast at client side
 
 #Open issues
 - some logic is hard coded
