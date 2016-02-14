@@ -31,6 +31,10 @@ client -> netty -> channel handler -> dispatch servlet -> controller -> OCC busi
 
 
 #Implementation
+The code will tell you the truth, nevertheless not the whole truth.
+
+Check code here:
+https://github.com/colorzhang/hybris/tree/master/async/netty
 
 #Stress testing
 :warning::warning::warning: This is NOT a through testing :warning::warning::warning:
