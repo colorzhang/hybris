@@ -64,10 +64,10 @@ There is no significant difference on response time and tps under light load for
 Asynchronization has much better and stable performance than sync under high load.
 
 #Ideas
-* How to protect your services from overload and cascading failures
-** Scaling at server side
-** Throttling at gateway
-** Fail fast at client side
+- How to protect your services from overload and cascading failures
+ + Scaling at server side
+ + Throttling at gateway
+ + Fail fast at client side
 
 #Open issues
 - some logic is hard coded
