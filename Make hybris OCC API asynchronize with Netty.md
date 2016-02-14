@@ -27,6 +27,8 @@
 #Stress testing
 :warning::warning::warning: This is NOT a through testing :warning::warning::warning:
 
+In this case, I only tested one OCC API product detail service. (/rest/v2/{site}/products/{productcode})
+
 ![Default OCC 100 concurrency stat](images/y100-stat.png)
 Figure:point_up:: Testing statistics/Spring MVC based OCC API/100 users
 ![Netty OCC 100 concurrency stat](images/netty-100-stat.png)
