@@ -13,6 +13,9 @@
 - Netty 4.1 CR2
 - Gatling 2.1
 
+##Hardware
+- Macbook Pro 8core/16g mem
+
 ##Design
 [The Omni Commerce Connect (OCC)](https://wiki.hybris.com/display/release5/OCC+Architecture+Overview) is a next-generation commerce-driven RESTful web services API that offers a broad set of commerce and data services which enable you to use and leverage the complete hybris Commerce Suite functionality anywhere in your existing application landscape. 
 
@@ -44,11 +47,12 @@ In this case, I only tested one OCC API product detail service. (/rest/v2/{site}
 ##Testing tool and setup
 [Gatling](http://gatling.io) is used to do the stress test. 
 100 or 1000 simulated users do non-stop service call in one minute. The users will be injected with a linear ramp over 20 seconds.
-Threre is no think time for this testing. It would be more resonable to setup think time.
+Threre is no think time for this testing. It would be more resonable to setup think time for real test scenario.
 
 Here is testing script:
 https://github.com/colorzhang/hybris/blob/master/async/gatling/OCCSimulation.scala
 
+##Testing result and analysis
 ![Default OCC 100 concurrency stat](images/y100-stat.png)
 Figure:point_up:: Testing statistics/Spring MVC based OCC API/100 users
 ![Netty OCC 100 concurrency stat](images/netty-100-stat.png)
