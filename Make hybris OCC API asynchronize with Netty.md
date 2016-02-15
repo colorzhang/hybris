@@ -1,4 +1,4 @@
-#Make hybris OCC API asynchronize with Netty
+#Make hybris OCC API asynchronous with Netty
 
 #Motivation
 - high throughput
