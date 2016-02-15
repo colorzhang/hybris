@@ -83,7 +83,7 @@ Asynchronization has much better and stable performance than sync one under high
 #Next step
 - Full funcational testing
 - Move part of OAuth2 logic to Nginx + Lua
-- Modulize as an extension
+- Modulize as an extension/addon
 
 #References
 [Netty project](http://netty.io)
