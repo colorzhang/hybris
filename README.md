@@ -13,7 +13,7 @@ A series of articles about highly scalable and available hybris systems:
 [hybris database scalability with sharding]
 
 * Part 4:
-[Scale your search with SolrCloud]
+[Scale your search with SolrCloud](https://github.com/colorzhang/hybris/blob/master/winston.zhang.hybris.com-hybris5.6withSolrCloud5.2.1-050316-0915-74094.pdf)
 
 * Part 5:
 [Micro-service and orchestration]
