@@ -13,7 +13,7 @@ Caching the DTO beans in the Redis server.
 ##Install Redis
 
 ##Config spring cache
-'''xml
+```xml
 
     <bean id="jedisConnFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
           p:usePool="true"/>
@@ -48,7 +48,7 @@ Caching the DTO beans in the Redis server.
     <aop:config>
         <aop:advisor advice-ref="cacheAdvice" pointcut="bean(customerConverter) || bean(productConverter)"/>
     </aop:config>
-'''
+```
 
 #Verify
 ![DTO beans cached in Redis](images/DTO_cache_redis.png)
