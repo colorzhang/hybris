@@ -27,3 +27,7 @@ A series of articles about highly scalable and available hybris systems:
 
 * Part 8:
 [Make web pages asynchronous with async servlet]
+
+* Part 9:
+[Caching DTO beans with Spring cache and Redis]
+(https://github.com/colorzhang/hybris/blob/master/Caching%20DTO%20beans%20with%20Spring%20cache%20and%20Redis.md)
