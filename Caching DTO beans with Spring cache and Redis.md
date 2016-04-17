@@ -2,14 +2,16 @@
 
 #Motivation
 Hybris creates a lot of new DTO beans object every time when you access the storefront.
-This impedes the responsive time and creates a lot os small short-live objects. 
+This impedes the responsive time and creates a lot of small short-live objects. 
 This also gives the JVM high pressure to do the garbage collection.
 You can consult the topic: converters and populators to get more info.
 
 #Design
-
+Caching the DTO beans in the Redis server.
 
 #Implementation
+
+#Verify
 
 
 #Performance testing
