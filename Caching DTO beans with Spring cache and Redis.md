@@ -12,7 +12,7 @@ Caching the DTO beans in the Redis server.
 #Implementation
 
 #Verify
-
+![DTO beans cached in Redis](images/DTO_beans_redis.png)
 
 #Performance testing
 
