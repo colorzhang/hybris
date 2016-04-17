@@ -6,6 +6,14 @@ This impedes the responsive time and creates a lot of small short-live objects.
 This also gives the JVM high pressure to do the garbage collection.
 You can consult the topic: converters and populators to get more info.
 
+#Environment
+##Software:
+- Redis 3.0.7
+- Spring 4.1.7 embedded with hybris
+- Spring data redis 1.7.1
+- hybris 6.0
+- MariaDB 10.1.8
+
 #Design
 Caching the DTO beans in the Redis server.
 
@@ -20,6 +28,8 @@ redis-server /usr/local/etc/redis.conf
 ```xml
 <beans>
 ...
+
+    <cache:annotation-driven />
 
     <bean id="jedisConnFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
           p:usePool="true"/>
