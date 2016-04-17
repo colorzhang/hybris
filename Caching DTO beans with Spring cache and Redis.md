@@ -7,8 +7,7 @@ This also gives the JVM high pressure to do the garbage collection.
 You can consult the topic: converters and populators to get more info.
 
 :warning::warning::warning: 
-In-memory cache usually has better performance than network distributed cache.
-You can swith to in-memory cache easily based on spring cache abstration.
+In-memory cache usually has better performance than network distributed cache, nevertheless distributed cache comes with better scalability. You can swith back and forth different cache providers easily based on spring cache abstration.
 :warning::warning::warning:
 
 #Environment
