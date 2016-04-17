@@ -6,6 +6,11 @@ This impedes the responsive time and creates a lot of small short-live objects.
 This also gives the JVM high pressure to do the garbage collection.
 You can consult the topic: converters and populators to get more info.
 
+:warning::warning::warning: 
+In-memory cache usually has better performance than network distributed cache.
+You can swith to in-memory cache easily based on spring cache abstration.
+:warning::warning::warning:
+
 #Environment
 ##Software:
 - Redis 3.0.7
