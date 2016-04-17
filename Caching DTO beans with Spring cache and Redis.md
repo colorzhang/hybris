@@ -89,6 +89,9 @@ I did a 10 user load testing for 1 min accessing digital camera product listing 
 | 3 |  |  | 40 |  |  | 43 |  |  | 42 |
 | Average |  |  | 38 |  |  | 34 |  |  | 39 |
 
+#Conclusion
+
+
 #Next step
 
 Winston Zhang
