@@ -79,7 +79,15 @@ redis-server /usr/local/etc/redis.conf
 #Verify
 ![DTO beans cached in Redis](images/DTO_cache_redis.png)
 
-#Performance testing
+#Performance evaluation
+I did a 10 user load testing for 1 min accessing digital camera product listing page.
+
+| No. | Guava-CPU | Guava-Memory | Guava-TPS | Redis-CPU | Redis-Memory | Redis-TPS | hybris-CPU | hybris-Memory | hybris-TPS | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 |  |  | 43 |  |  | 23 |  |  | 34 |
+| 2 |  |  | 32 |  |  | 35 |  |  | 41 |
+| 3 |  |  | 40 |  |  | 43 |  |  | 42 |
+| Average |  |  | 38 |  |  | 34 |  |  | 39 |
 
 #Next step
 
