@@ -9,10 +9,10 @@ You can consult the topic: converters and populators to get more info.
 #Environment
 ##Software:
 - Redis 3.0.7
-- Spring 4.1.7 embedded with hybris
+- Spring framework 4.1.7 embedded with hybris
 - Spring data redis 1.7.1
 - hybris 6.0
-- MariaDB 10.1.8
+- MariaDB 10.1.13
 
 #Design
 Caching the DTO beans in the Redis server.
