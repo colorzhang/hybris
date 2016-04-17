@@ -10,10 +10,16 @@ You can consult the topic: converters and populators to get more info.
 Caching the DTO beans in the Redis server.
 
 #Implementation
-##Install Redis
+##Install & start Redis
+```bash
+brew install redis
+redis-server /usr/local/etc/redis.conf
+```
 
 ##Config spring cache
 ```xml
+<beans>
+...
 
     <bean id="jedisConnFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
           p:usePool="true"/>
@@ -48,6 +54,8 @@ Caching the DTO beans in the Redis server.
     <aop:config>
         <aop:advisor advice-ref="cacheAdvice" pointcut="bean(customerConverter) || bean(productConverter)"/>
     </aop:config>
+    
+</beans>
 ```
 
 #Verify
