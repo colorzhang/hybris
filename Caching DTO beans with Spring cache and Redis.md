@@ -98,7 +98,8 @@ I did a 10 user load testing for 1 min accessing digital camera product listing 
 - Cache DTO only if you need it
 - Cache DTO only when it becomes bottleneck
 - Choose the cache mechanism and provider wisely
-
+- Cache really can bypass some logic execution
+- Consider serializtion overhead when distribute cache
 
 #Open issues
 - Data contention
