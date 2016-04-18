@@ -91,6 +91,9 @@ I did a 10 user load testing for 1 min accessing digital camera product listing 
 
 #Conclusion
 
+#Open issues
+- Data contention
+- Key distribution
 
 #Next step
 
