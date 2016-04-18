@@ -62,15 +62,20 @@ redis-server /usr/local/etc/redis.conf
           p:usePrefix="true"/>
 
 
-
     <cache:advice id="cacheAdvice">
         <cache:caching cache="beans:cache">
-            <cache:cacheable method="convert" key="#source.class.getName().concat(':').concat(#source.getPk().getLongValueAsString())"/>
+            <cache:cacheable method="convert" key="#source.class.getName().concat(':').concat(#source.toString())"/>
+            <cache:cacheable method="convertAll*" key="#sources.toString()" unless="#result == null"/>
         </cache:caching>
     </cache:advice>
 
     <aop:config>
-        <aop:advisor advice-ref="cacheAdvice" pointcut="bean(customerConverter) || bean(productConverter)"/>
+        <aop:advisor advice-ref="cacheAdvice" pointcut="bean(customerConverter) || bean(productConverter) ||
+            bean(categoryUrlConverter) || bean(categoryConverter) ||
+            bean(imageConverter) || bean(productUrlConverter) || bean(productReferenceConverter) ||
+            bean(promotionsConverter) || bean(languageConverter) || bean(currencyConverter) ||
+            bean(countryConverter) || bean(promotionResultConverter) || bean(customerReviewConverter) ||
+            bean(principalConverter) || bean(classificationConverter) || bean(featureConverter)"/>
     </aop:config>
     
 </beans>
@@ -90,10 +95,15 @@ I did a 10 user load testing for 1 min accessing digital camera product listing 
 | Average |  |  | 38 |  |  | 34 |  |  | 39 |
 
 #Conclusion
+- Cache DTO only if you need it
+- Cache DTO only when it becomes bottleneck
+- Choose the cache mechanism and provider wisely
+- 
 
 #Open issues
 - Data contention
 - Key distribution
+
 
 #Next step
 
