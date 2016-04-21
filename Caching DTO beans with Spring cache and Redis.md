@@ -23,7 +23,7 @@ In-memory cache usually has better performance than network distributed cache, n
 
 - Using Spring AOP to add cache apsect directly. no need to change any code. (some converters have complex data structure, maybe needs to change code then.)
 
-- Set different TTL for different data type using cacheManager.
+- Setting different TTL for different data type using cacheManager.
 
 #Implementation
 ##Install & start Redis
@@ -82,6 +82,10 @@ redis-server /usr/local/etc/redis.conf
 ```
 
 #Verify
+##Debug verify
+Debug to check whether the cached method works or not.
+
+##Cache verify
 ![DTO beans cached in Redis](images/DTO_cache_redis.png)
 
 #Performance evaluation
