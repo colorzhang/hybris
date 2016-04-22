@@ -104,6 +104,7 @@ I did a 10 user load testing for 1 min accessing digital camera product listing 
 - Choose the cache mechanism and provider wisely
 - Cache really can bypass some logic execution
 - Consider serialization overhead when distribute cache
+- Monitor and manage it
 
 #Open issues
 - Data contention
