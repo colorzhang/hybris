@@ -1,5 +1,8 @@
 #Caching DTO beans with Spring cache and Redis
 
+Chinese version 微信公众号文章
+[大规模分布式电商系统系列文章之三：缓存系统](http://mp.weixin.qq.com/s?__biz=MzA3ODEwOTYwMQ==&mid=2649130586&idx=1&sn=7715595e6501cf7694a071be218fd6c5&scene=23&srcid=0422npkLmFuRB4hZbVQ0pK9Q#rd)
+
 #Motivation
 Hybris creates a lot of new DTO beans object every time when you access the storefront.
 This impedes the responsive time and creates a lot of small short-live objects. 
