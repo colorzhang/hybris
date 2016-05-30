@@ -11,7 +11,7 @@
 如有任何问题请联系交流讨论，Winston Zhang (colorzhang@gmail.com)
 ```
 
-```
+
 :star::star::star:
 29 May, 2016
 Tested SAP Hybris Commerce 6.0 with Spring Session 1.2.0/Spring Data Redis 1.7.1/Spring Frameowrk 4.2.6
@@ -23,7 +23,7 @@ Tested SAP Hybris Commerce 6.0 with Spring Session 1.2.0/Spring Data Redis 1.7.1
 - [ ] Load balance
 - [ ] Session sticky
 - [ ] Redis cluster
-```
+
 
 #Motivation
 - Making hybris app stateless
