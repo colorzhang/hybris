@@ -21,6 +21,7 @@ Tested SAP Hybris Commerce 6.0 with Spring Session 1.2.0/Spring Data Redis 1.7.1
 - [x] Shopping cart
 - [x] Checkout
 - [x] New promotion engine compability
+- [x] Concurrent session control
 - [ ] Failover
 - [ ] Load balance
 - [ ] Session sticky
