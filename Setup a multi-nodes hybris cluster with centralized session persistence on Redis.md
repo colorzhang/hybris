@@ -27,6 +27,7 @@ Tested SAP Hybris Commerce 6.0 with Spring Session 1.2.0/Spring Data Redis 1.7.1
 - [ ] Session sticky
 - [ ] Redis cluster
 
+| I didn't post full source code here for this paper, please contact me if you have any question. |
 
 #Motivation
 - Making hybris app stateless
