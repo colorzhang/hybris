@@ -21,7 +21,7 @@ Tested SAP Hybris Commerce 6.0 with Spring Session 1.2.0/Spring Data Redis 1.7.1
 - [x] Shopping cart
 - [x] Checkout
 - [x] New promotion engine compability
-- [x] Concurrent session control
+- [x] Concurrent session control ([电商前后台多设备登录会话管理](https://mp.weixin.qq.com/s?__biz=MzA3ODEwOTYwMQ==&mid=2649130589&idx=1&sn=04a06b14befcc25d064982514707c845&scene=1&srcid=0629K88ipwWMwa2Pa1pbFyRV&key=77421cf58af4a65363958fe052652aa40c3e1e68113d43621e790e24adf2f0902a3872daa97bae9114e5f16a5cb363dd&ascene=0&uin=MTMyNTkzMjQyMA%3D%3D&devicetype=iMac+MacBookPro11%2C3+OSX+OSX+10.11.6+build(15G19a)&version=11020201&pass_ticket=bPz1VG8SFtBE4OEHRsvG9Vx24wFscqXhTHAtm%2FSC2yF8X3e61PhTW83tmvdYb5MI))
 - [ ] Failover
 - [ ] Load balance
 - [ ] Session sticky
