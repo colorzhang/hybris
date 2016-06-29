@@ -238,7 +238,7 @@ cluster.broadcast.method.jgroups.configuration=jgroups-udp.xml
 #Next step
 * Performance testing
 * Redis cluster setup
-* Docker deployment [hybris on Docker](https://github.com/colorzhang/kubernetes)
+* Docker deployment [(hybris on Docker)](https://github.com/colorzhang/kubernetes)
 
 #References
 [Spring Session project](http://projects.spring.io/spring-session/)
