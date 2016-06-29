@@ -101,7 +101,7 @@ os.rmiregistry.port=2298
 ```
 
 ##Configure Spring Session on both nodes
-1) add related jars to platform/ext/core/lib and modify some classes (please contact me if you want know more details)
+1) add related jars to platform/ext/core/lib and modify some classes (please contact me if you want to know more details)
 
 2) config hybris
 
@@ -238,7 +238,7 @@ cluster.broadcast.method.jgroups.configuration=jgroups-udp.xml
 #Next step
 * Performance testing
 * Redis cluster setup
-* Docker deployment ![hybris on Docker](github.com/colorzhang/kubenetes)
+* Docker deployment [hybris on Docker](https://github.com/colorzhang/kubernetes)
 
 #References
 [Spring Session project](http://projects.spring.io/spring-session/)
