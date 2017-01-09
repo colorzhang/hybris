@@ -11,6 +11,12 @@
 如有任何问题请联系交流讨论，Winston Zhang (colorzhang@gmail.com)
 ```
 
+:star::star::star:
+9 Jan, 2017
+
+Released session redis package on vanilla hybris commerce 6.0
+Please find more details from here:
+https://github.com/colorzhang/hybris/tree/master/SessionRedis
 
 :star::star::star:
 29 May, 2016
