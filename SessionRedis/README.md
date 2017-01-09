@@ -9,4 +9,9 @@
 * ant customize
 * done
 
+# Run
+* start redis
+* access b2c electroics store
+* check session in redis
+
 Enjoy
