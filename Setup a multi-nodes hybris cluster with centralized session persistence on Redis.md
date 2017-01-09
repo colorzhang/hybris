@@ -14,9 +14,7 @@
 :star::star::star:
 9 Jan, 2017
 
-Released session redis package on vanilla hybris commerce 6.0.
-
-Please find more details from here:
+Released session redis package on vanilla hybris commerce 6.0. Please find more details from here:
 https://github.com/colorzhang/hybris/tree/master/SessionRedis
 
 :star::star::star:
