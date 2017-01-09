@@ -1,5 +1,5 @@
 #Introduction
-Ready to use session redis package for hybris commerce 6.0.
+Ready to use session redis package for hybris commerce 6.0. [more details](https://github.com/colorzhang/hybris/blob/master/Setup%20a%20multi-nodes%20hybris%20cluster%20with%20centralized%20session%20persistence%20on%20Redis.md)
 
 #Quick install
 
