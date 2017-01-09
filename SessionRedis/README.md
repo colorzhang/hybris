@@ -1,5 +1,5 @@
 #Introduction
-
+Ready to use session redis package for hybris commerce 6.0.
 
 #Quick install
 
