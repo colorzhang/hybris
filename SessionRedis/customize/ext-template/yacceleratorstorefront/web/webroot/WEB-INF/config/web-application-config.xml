@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ [y] hybris Platform
+
+ Copyright (c) 2000-2016 hybris AG
+ All rights reserved.
+
+ This software is the confidential and proprietary information of hybris
+ ("Confidential Information"). You shall not disclose such Confidential
+ Information and shall use it only in accordance with the terms of the
+ license agreement you entered into with hybris.
+-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+		
+	<context:annotation-config/> 
+
+	<!--
+		Tenant
+	-->
+	<bean class="org.springframework.beans.factory.config.CustomScopeConfigurer">
+		<property name="scopes">
+			<map>
+				<entry key="tenant" value="de.hybris.platform.spring.TenantScope"/>
+			</map>
+		</property>
+	</bean>
+	
+	<!-- Load additional configuration -->
+	<import resource="spring-session.xml"/>
+	<import resource="spring-filter-config.xml"/>
+	<import resource="btg-config.xml"/>
+	<import resource="spring-security-config.xml"/>
+	<import resource="spring-mvc-config.xml"/>
+	<import resource="classpath:/acceleratorcms/spring/web-spring-context.xml"/>
+	<import resource="spring-cms-config.xml"/>
+	<import resource="multi-step-checkout-config.xml"/>
+
+</beans>
